@@ -1,0 +1,15 @@
+body
+{
+	font-family: sans-serif;
+	text-align: center;
+	background-color: #ffcc99;
+}
+
+#inputSize
+{
+	border: 0.15em solid black;
+}
+#submitButton
+{
+	border: 0.15em solid black;
+}

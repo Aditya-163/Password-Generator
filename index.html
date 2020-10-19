@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Password Generator</title>
+		<link rel="stylesheet" href="randStyles.css">
+	</head>
+	<body>
+		<h1 class="welcome">Welcome to the online password generator!</h1>
+		<form>
+			<!-- Number of letters! -->
+			<label>Number of letters:</label>
+			<input id="inputSize" type="text">
+			<!-- -->
+			<br>
+			<br>
+			<!-- Capital Letters -->
+			<input id="capLetters" type="checkbox">
+			<label>Captial Letters</label>
+			<!-- -->
+			<br>
+			<br>
+			<!-- Numbers -->
+			<input id="nums" type="checkbox">
+			<label>Numbers</label>
+			<!-- -->
+			<br>
+			<br>
+			<!-- Specaial characters (# $ % &) -->
+			<input id="specials" type="checkbox">
+			<label>Special characters</label><br>
+			<!-- -->
+			<br>
+			<p> Press <strong>Submit</strong>, to get the password!</p>
+			<!-- Submit button -->
+			<input id="submitButton" type="button" value="Submit">
+			<!-- -->
+		</form>
+		<p id="pwordReturn"></p>
+		<script src="randJS.js"></script>
+	</body>
+</html>
